@@ -35,4 +35,6 @@
 // explicitly pre-set config always wins, which is also exactly what src/db/sync.js:69-71
 // already promises: "a test can point at a stub and a self-hosted deployment can point at
 // its own project without a rebuild".
-globalThis.ZAJIL_SYNC_CONFIG = globalThis.ZAJIL_SYNC_CONFIG || { url: '', publishableKey: '' };
+// ── WRITTEN AT DEPLOY TIME by scripts/inject-config.mjs. The committed copy of this file,
+// at next/public/sync-config.js, is EMPTY and stays that way. ──
+globalThis.ZAJIL_SYNC_CONFIG = globalThis.ZAJIL_SYNC_CONFIG || {"url":"https://thfxijqzxzdttsuqriwn.supabase.co","publishableKey":"sb_publishable_ouOwztGXI24Bn-nsgFVXEg_gjkFyZEw"};
