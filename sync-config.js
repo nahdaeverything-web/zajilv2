@@ -37,8 +37,4 @@
 // its own project without a rebuild".
 // ── WRITTEN AT DEPLOY TIME by scripts/inject-config.mjs. The committed copy of this file,
 // at next/public/sync-config.js, is EMPTY and stays that way. ──
-// ── WRITTEN AT DEPLOY TIME by scripts/inject-config.mjs. The committed copy of this file,
-// at next/public/sync-config.js, is EMPTY and stays that way. ──
-// ── WRITTEN AT DEPLOY TIME by scripts/inject-config.mjs. The committed copy of this file,
-// at next/public/sync-config.js, is EMPTY and stays that way. ──
 globalThis.ZAJIL_SYNC_CONFIG = globalThis.ZAJIL_SYNC_CONFIG || {"url":"https://thfxijqzxzdttsuqriwn.supabase.co","publishableKey":"sb_publishable_ouOwztGXI24Bn-nsgFVXEg_gjkFyZEw"};
